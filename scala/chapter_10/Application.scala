@@ -1,4 +1,4 @@
-import foo.{Element, ArrayElement,LineElement,UniformElement}
+import foo._
 
 object Application extends App {  
   val elem: Element = new ArrayElement(Array("hello", "world"))
