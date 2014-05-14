@@ -4,4 +4,5 @@ node 'chat-servers' {
     include 'clojure'
     
     include 'tmux'
+    include 'vim'
 }
