@@ -1,11 +1,7 @@
-import foo._
+import Spiral.spiral
 
 object Application extends App {  
-  val elem: Element = new ArrayElement(Array("hello", "world"))
-  val lineElem: LineElement = new LineElement("hello world")
-  val uniformElem: Element = new UniformElement('d', 50, 10)
-  
-  println(elem.width)
-  println(lineElem.width)
-  println(uniformElem.width)
+  val nSides = args(0).toInt
+
+  println(spiral(nSides, 0))
 }
